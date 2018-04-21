@@ -4,9 +4,11 @@ def greetings():
 
 greetings()
 
-response = raw_input("You must be ... ")
+def who_are_you():
+    response = raw_input("You must be ... ")
+    print "Pleasure to meet you " + response
 
-print "Pleasure to meet you " + response
+who_are_you()
 
 
 
